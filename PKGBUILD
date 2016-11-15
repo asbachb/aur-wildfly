@@ -3,13 +3,13 @@
 
 pkgname=wildfly
 pkgver=10.1.0.Final
-pkgrel=1
+pkgrel=2
 
 pkgdesc='Wildfly Application Server'
 arch=('any')
 url='http://www.wildfly.org/'
 license=('LGPL')
-depends=('java-runtime>=8')
+depends=('java-runtime-headless>=8')
 conficts=('wildfly-devel')
 
 _pkgloc=opt
